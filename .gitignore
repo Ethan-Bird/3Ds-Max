@@ -107,3 +107,45 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# ==========================================
+# 3ds Max Standard .gitignore
+# ==========================================
+
+# Temp, Backups, and Autosaves
+# ------------------------------------------
+AutoBackup/
+autoback/
+downloads/
+proxies/
+sceneassets/images/
+sceneassets/renderoutput/
+vraylog.txt
+*.max.bak
+*.mat.bak
+
+# Local User Settings & Workspace Configurations
+# ------------------------------------------
+*.mx
+*.uvw
+*.log
+*.ini
+PluginState.ini
+max_min.ini
+
+# Common Render Engine Cache (V-Ray / Corona)
+# ------------------------------------------
+.vray/
+.corona/
+
+# System / OS Junk
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Heavy Asset Management (Optional)
+# ==========================================
+# If you are NOT using Git LFS, uncomment the line below 
+# to keep heavy binary scenes out of your repository:
+# *.max
